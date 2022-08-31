@@ -456,6 +456,13 @@ h2 span {
     height: 500px;
 }
 
+@media (max-width:700px) {
+    
+.bigdiv{
+    height: 800px;
+}
+}
+
 .bigdiv>.innerContainer{
     height: 100%;
     display: flex;
