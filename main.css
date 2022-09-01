@@ -7,6 +7,10 @@
   scroll-behavior: smooth;
 }
 
+/* :is(div, body) {
+  border: 1px solid red;
+} */
+
 body {
   display: flex;
   position: relative;
@@ -61,6 +65,7 @@ header {
   background-color: #03179d;
   padding: 20px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   position: fixed;
   top: 0;
@@ -82,11 +87,10 @@ header ul {
 }
 
 header > .innerContainer > ul > li > a {
-  padding-left: 10px;
-  padding-right: 10px;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
   padding: 18px;
-  /* cursor: pointer; */
-  list-style: none;
+  /* list-style: none; */
 }
 
 header li {
@@ -175,7 +179,7 @@ header a {
 .num452 {
   text-align: center;
   color: white;
-  font-size: 150px;
+  font-size: 140px;
 }
 
 .ppp {
@@ -213,6 +217,7 @@ header a {
     justify-content: space-around;
   }
   .ppppp {
+    position: absolute;
     right: 30%;
   }
 
@@ -329,7 +334,7 @@ h2 span {
 
 .innerDiv > img {
   border-radius: 30%;
-  width: 450px;
+  width: 100%;
   height: 400px;
 }
 
