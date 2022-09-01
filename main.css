@@ -7,7 +7,6 @@
     scroll-behavior:smooth;
 }
 
-
 body{
     display: flex;
     position: relative;
@@ -34,23 +33,28 @@ body{
     font-family: 'Roboto', sans-serif;
     padding-top: 5px;
 }
-/* 
-.divrotate{
-    rotate: 180deg;
-    color: white;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    text-align: center;
-    position: relative;
-    align-items: center;
-} */
+
 
 .container{
     width: 100%;
     position:relative;
     margin-top: 83px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .blueDiv{
     width: 100%;
@@ -104,7 +108,6 @@ body{
 .divdollara{
     position: relative; 
     display: flex;
-    /* background-color: red;  */
     align-items: center; 
     justify-content: center;
 }
@@ -113,13 +116,16 @@ body{
     .innerBluediv{
         flex-direction: column;
         justify-content: space-around;
-        /* height: auto; */
-        /* background-color: red; */
     }
     .ppppp{
         right: 30%;
     }
 
+
+    .afterInnerBlueDiv{
+        width: 85%;
+        margin: 0 auto;
+   }
 
 
     .afterInnerBlueDivh2{
@@ -147,6 +153,42 @@ body{
     }
 }
 
+@media (max-width:400px) {
+    .num452{
+        font-size: 110px;
+    }
+
+    .ppppp{
+        font-size: 35px; 
+    }
+
+    .about__list-check li {
+        line-height: 20px;
+        font-size: 15px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .innerContainer{
     width: 1200px;
@@ -173,7 +215,7 @@ header{
     position:fixed;
     top: 0;
     left: 0;
-    transition: 0.5s;
+    /* transition: 0.5s; */
     z-index: 1;
 }
 
@@ -374,11 +416,13 @@ h2 span {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
+    cursor: pointer;
 }
 
 .divUnderBurget{
-    transition: 0.1;
+    /* transition: 0.1; */
     /* display: none; */
+    
     visibility: hidden;
     position: fixed;
     width: 50%;
@@ -644,6 +688,13 @@ footer{
     }
 }
 
+
+@media (max-width:700px) {
+    .spanblok{
+        top: -2px;
+    }
+}
+
 @media (max-width:700px){
 
     .banner{
@@ -652,6 +703,19 @@ footer{
         text-align: center;
     }
 
+    .firstHalf{
+        display: none;
+    }
+    .secondHalf{
+        background-color: red;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .bigdiv{
+        height: 400px;
+
+    }
 
 
     .spanblok{
@@ -664,11 +728,7 @@ footer{
         top: 17px;
     }
 
-    @media (max-width:700px) {
-        .spanblok{
-            top: -2px;
-        }
-    }
+
 
     .innerDiv2{
         padding-top: 20px;
@@ -678,7 +738,7 @@ footer{
         display: none;
     }
 
-    #header > .innerContainer{
+    header > .innerContainer{
         display: flex;
         justify-content: space-between;
     }
@@ -688,7 +748,7 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        cursor: pointer;
+        /* cursor: pointer; */
 
     }
 
@@ -700,8 +760,7 @@ footer{
     }
 
     .divUnderBurget{
-        margin-top: 85px;
-
+        margin-top: 83px;
     }
 
 
