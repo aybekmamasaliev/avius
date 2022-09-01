@@ -443,6 +443,10 @@ h2 span {
   min-height: 500px;
 }
 
+.firstHalf>img{
+    margin-top:10px;
+}
+
 @media (max-width: 800px) {
   .bigdiv {
     min-height: 500px;
@@ -465,7 +469,7 @@ h2 span {
 .firstHalf > img {
   width: 300px;
   display: block;
-  margin-top: 45%;
+  margin-top: 30%;
 }
 
 .secondHalf {
