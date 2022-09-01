@@ -736,6 +736,14 @@ footer {
     top: 17px;
   }
 
+  @media (max-width:550px) {
+    .spanblok {
+      margin-top: 5px;
+      position: absolute;
+      top: 1px;
+    }
+  }
+
   .innerDiv2 {
     padding-top: 20px;
   }
