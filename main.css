@@ -7,9 +7,6 @@
   scroll-behavior: smooth;
 }
 
-/* :is(div, body) {
-  border: 1px solid red;
-} */
 
 body {
   display: flex;
