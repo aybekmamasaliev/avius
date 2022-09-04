@@ -75,6 +75,16 @@ header img {
   width: 150px;
 }
 
+.left{
+  margin-left: 40px;
+  margin-right: -40px;
+}
+
+.four{
+  color:red;
+  background-color: #00c3e2;
+}
+
 header ul {
   display: flex;
   justify-content: space-around;
